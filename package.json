@@ -1,0 +1,21 @@
+{
+  "name": "webappveterinaria",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Aplicacion Web Administracion Clinica Veterinaria",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Omar Yesith Tamara Pallares",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
