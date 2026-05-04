@@ -102,13 +102,13 @@ El servidor estará disponible en `http://localhost:4000`
 
 ### Veterinarios
 
-| Método | Ruta                        | Descripción                   | Estado           |
-| ------ | --------------------------- | ----------------------------- | ---------------- |
-| GET    | `/api/veterinarios`         | Registrar veterinario         | 🔄 En desarrollo |
-| GET    | `/api/veterinarios/login`   | Login de veterinario          | 🔄 En desarrollo |
-| GET    | `/api/veterinarios/profile` | Obtener perfil de veterinario | 🔄 En desarrollo |
+| Método | Ruta                        | Descripción                                                 | Estado           |
+| ------ | --------------------------- | ----------------------------------------------------------- | ---------------- |
+| POST   | `/api/veterinarios`         | Registrar veterinario (espera JSON con `email`, `password`) | 🔄 En desarrollo |
+| POST   | `/api/veterinarios/login`   | Login de veterinario (espera JSON con `email`, `password`)  | 🔄 En desarrollo |
+| GET    | `/api/veterinarios/profile` | Obtener perfil de veterinario                               | 🔄 En desarrollo |
 
-_Nota: Los endpoints actualmente retornan solo mensajes de prueba. La lógica aún está en desarrollo._
+_Nota: Los endpoints actualmente retornan objetos JSON con mensajes de prueba (placeholders). La lógica completa de registro, login y manejo de perfiles está en desarrollo._
 
 ## 📊 Modelo de Datos
 

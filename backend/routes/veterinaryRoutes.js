@@ -2,11 +2,9 @@ import express from 'express';
 const router = express.Router();
 import { register, login, profile } from '../controllers/veterinaryController.js';
 
+router.post('/', register);
 
-
-router.get('/', register);
-
-router.get('/login', login);
+router.post('/login', login);
 
 router.get('/profile', profile);
 

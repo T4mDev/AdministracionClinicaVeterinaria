@@ -1,13 +1,15 @@
 const register = (req, res) => {
-    res.send('Desde API/veterinarios');
+    const { email, password } = req.body;
+    res.json({ msg: 'Desde API/veterinarios'});
 };
 
 const login = (req, res) => {
-    res.send('Desde API/veterinarios/login');
+    const { email, password } = req.body;
+    res.json({ msg: 'Desde API/veterinarios/login'});
 };
 
 const profile = (req, res) => {
-    res.send('Desde API/veterinarios/profile');
+    res.json({ msg: 'Desde API/veterinarios/profile' });
 };
 
 export {
