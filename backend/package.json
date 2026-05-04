@@ -5,15 +5,17 @@
   "description": "Aplicacion Web Administracion Clinica Veterinaria",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "Omar Yesith Tamara Pallares",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "mongoose": "^9.4.1"
+    "mongodb": "^7.2.0",
+    "mongoose": "^9.5.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
