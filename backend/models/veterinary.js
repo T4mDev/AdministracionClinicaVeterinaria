@@ -8,11 +8,11 @@ const veterinarySchema = new mongoose.Schema({
     },
     password: {
         type: String,
-        required
+        required: true,
     },
     email: {
         type: String,
-        required,
+        required: true,
         unique: true,
         trim: true,
     },
